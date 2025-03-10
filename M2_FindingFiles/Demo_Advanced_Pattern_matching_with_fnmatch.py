@@ -5,4 +5,6 @@ def match(fld: str, search: str):
         if fnmatch.fnmatch(fn, search):
             print(fn)
 
-match("./files", "*_file*.*")
+# match("./files", "*_file*.*")
+# match("./files", "*_file_*.*")
+match("./files", "*2_*_*.*")
