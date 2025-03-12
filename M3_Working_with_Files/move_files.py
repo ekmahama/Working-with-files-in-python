@@ -5,3 +5,4 @@ def mv_files(src, dst):
 
 
 mv_files("./files/text.txt", "./files/subfolder/text.txt")
+mv_files("./files", "./xzy")
